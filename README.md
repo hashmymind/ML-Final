@@ -1,6 +1,6 @@
 # About this repo
 
-This is my ML class homework, I only took one night to do it, so there could a lot space for improvement.
+This is a homework of my ML class, and I only took one night to do it, so there could be a lot of space to improve.
 
 ## Dataset
 * SST-fine-grained (5 classes)
