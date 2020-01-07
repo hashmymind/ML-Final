@@ -1,3 +1,8 @@
+*.h5
+*.txt
+*.mat
+*.token
+word_index
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
