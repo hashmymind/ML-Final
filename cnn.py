@@ -35,8 +35,7 @@ def get_model(classes=5, word_index=None):
         
         with open('embed.mat','wb') as fp:
             pickle.dump(embedding_matrix,fp)
-    with open('embed.mat','rb') as fp:
-        embedding_matrix=pickle.load(fp)
+            
     model = Sequential()
     model.add(Embedding(len(word_index) + 1,300,weights=[embedding_matrix],input_length=40,trainable=False))
     model.add(Conv1D(256, 5, activation='relu'))
